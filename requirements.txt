@@ -1,0 +1,6 @@
+flask # or fastapi uvicorn if using FastAPI
+ytmusicapi
+gunicorn # Gunicorn is a WSGI HTTP Server for UNIX, good for production Flask/Django
+# If using FastAPI:
+# uvicorn
+# httpx # FastAPI dependencies often include this
